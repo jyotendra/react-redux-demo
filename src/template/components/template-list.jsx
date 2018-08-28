@@ -1,5 +1,5 @@
 import React from "react";
-export const TemplateList = ({ templateList }) => {
+export const TemplateList = ({ templateList = [] }) => {
   return (
     <div>
       <ul>
